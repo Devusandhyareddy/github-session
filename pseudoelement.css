@@ -1,0 +1,23 @@
+/*p::first-line{
+    color: blue;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}*/
+/*p::first-letter {
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}*/
+
+h1::before{
+  content: "[";
+  color: green;
+}
+
+/*h1::after{
+  content: "]";
+  color: blue;
+}*/
+

@@ -1,0 +1,6 @@
+a.para1{
+    background-color: blue;
+}
+a[href]{
+    background-color: red;
+}

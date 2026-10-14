@@ -1,0 +1,66 @@
+body {
+    background-color: #e8f5e9;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: #1b5e20;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+    color: #263238;
+}
+
+.registration-form {
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    background-color: #1565c0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #ef6c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sub-title {
+    color: #00695c;
+    font-family: cursive;
+    border: 2px dotted #00695c;
+}
+
+#contact-title {
+    color: #4527a0;
+    font-family: cursive;
+    border: 2px dotted #4527a0;
+}
+
+#skills-title {
+    color: #e65100;
+    font-family: cursive;
+    border: 2px dotted #e65100;
+}
+
+#skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #2e7d32;
+}

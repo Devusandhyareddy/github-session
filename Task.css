@@ -1,0 +1,50 @@
+/* Task 1: Direct child and Descendant */
+/* Direct child paragraph */
+div > p {
+    color: blue;
+}
+/* All paragraphs inside div */
+div p {
+    background-color: lightyellow;
+}
+/* Task 2: Adjacent and General sibling */
+/* Paragraph immediately after heading */
+h2 + p {
+    background-color: lightgreen;
+}
+/* All paragraphs after the first paragraph */
+p ~ p {
+    color: red;
+}
+/* Task 3: Attribute selectors */
+/* Inputs having placeholder */
+input[placeholder] {
+    border: 2px solid blue;
+}
+/* Email input */
+input[type="email"] {
+    color: green;
+}
+/* Task 4: Learning Resources */
+
+/* Links starting with https */
+a[href^="https"] {
+    color: green;
+}
+/* Links ending with .pdf */
+a[href$=".pdf"] {
+    color: red;
+}
+/* Links containing course */
+a[href*="course"] {
+    background-color: yellow;
+}
+/* Task 5: Only child and Only of type */
+/* Paragraph is the only child */
+div p:only-child {
+    background-color: lightblue;
+}
+/* Paragraph is the only paragraph of its type */
+p:only-of-type {
+    border: 2px solid purple;
+}

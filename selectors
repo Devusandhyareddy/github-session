@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Profile</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+
+        .about {
+            background-color: lightyellow;
+            padding: 20px;
+        }
+
+        #registration {
+            background-color: lightgray;
+            padding: 20px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Personal Information -->
+    <h1 style="color: darkblue; text-align: center;">
+        My Personal Profile
+    </h1>
+
+    <!-- About Me -->
+    <div class="about">
+        <h2>About Me</h2>
+
+        <h3>My Name is Sandhya</h3>
+
+        <p>
+            I am a student interested in programming,
+            web development and technology.
+        </p>
+
+        <h3>My Hobbies</h3>
+        <ul>
+            <li>Reading Books</li>
+            <li>Listening to Music</li>
+            <li>Learning Programming</li>
+        </ul>
+
+        <h3>My Goals</h3>
+        <ol>
+            <li>Learn HTML and CSS</li>
+            <li>Improve Coding Skills</li>
+            <li>Become a Software Developer</li>
+        </ol>
+    </div>
+
+    <!-- Iframe -->
+    <h2>My Location</h2>
+
+    <iframe
+        src="https://www.openstreetmap.org/export/embed.html?bbox=78.35%2C17.35%2C78.55%2C17.50&layer=mapnik"
+        width="600"
+        height="300">
+    </iframe>
+
+    <!-- Student Registration Form -->
+    <div id="registration">
+
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label>Course:</label>
+            <select>
+                <option>Select Course</option>
+                <option>Java</option>
+                <option>Python</option>
+                <option>Web Development</option>
+                <option>Data Science</option>
+            </select>
+            <br><br>
+
+            <label>Skills:</label>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> Java
+            <input type="checkbox"> Python
+            <br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br><br>
+
+            <label>Address:</label>
+            <br>
+            <textarea rows="4" cols="40"></textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
+</body>
+</html>

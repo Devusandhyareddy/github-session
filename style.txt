@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet    
+    
+    \
+    
+    
+    ]]"
+    <h1 style="color:red;text-align:centre-middle">Hello,world</h1>
+    <style>
+        @import url("index.css");
+    </style>
+</head>
+<body>
+    <hi style="color:purple;">Hello, world!</h1>
+</body>
+</html>
